@@ -31,7 +31,7 @@
     "@apollo/client": "*",
     "@wpengine/headless": "*",
     "graphql": "*",
-    "next": "*",
+    "next": "^10.0.8-canary.6",
     "normalize.css": "*",
     "npm-run-all": "*",
     "react": "*",
