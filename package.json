@@ -7,14 +7,14 @@
   "scripts": {
     "build": "next build",
     "clean": "rimraf .next node_modules",
-    "dev": "next dev",
+    "dev": "next",
     "dev-lerna": "wait-on ./node_modules/@wpengine/headless/dist/index.js && npm run dev",
     "open": "run-s open:local",
     "open:local": "open-cli http://localhost:3000/",
     "lint": "tsc --noEmit -p . && eslint **/*.{ts,tsx} --parser-options=project:tsconfig.json --quiet --fix",
     "start": "next start -p 8080",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "wpe-build": "next build"
+    "wpe-build": ""
   },
   "repository": {
     "type": "git",
