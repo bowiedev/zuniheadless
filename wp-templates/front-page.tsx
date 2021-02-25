@@ -25,10 +25,10 @@ export default function FrontPage(props: any): JSX.Element {
       <Header title={settings?.title} description={settings?.description} />
       <main className="content">
         <Hero
-          title="Get Started with Zuni's Headlesss site!!!"
+          title="This is Alex Zuniga's Atlas site!!!"
           buttonText="Developer Docs"
           buttonURL="https://developers.wpengine.com/"
-          button2Text="Headless on GitHub"
+          button2Text="Checkout our GitHub"
           button2URL="https://github.com/wpengine/headless-framework"
           bgImage="/images/headless_hero_background.jpg"
           id={styles.home_hero}>
