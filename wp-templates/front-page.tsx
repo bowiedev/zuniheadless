@@ -43,12 +43,12 @@ export default function FrontPage(props: any): JSX.Element {
               headless package
             </a>
             , and <a href="https://developers.wpengine.com/">tutorials</a> to
-            make building headless WordPress sites fast and fun.
+            make building headless WordPress sites fast and fun. Rather than impossible.
           </p>
         </Hero>
         <section className={styles.explore}>
           <div className="wrap">
-            <h2>Explore this Example Project</h2>
+            <h2>Explore this Example Project!</h2>
             <p>
               This headless example project uses{' '}
               <a href="https://nextjs.org/">Next.js</a>,{' '}
